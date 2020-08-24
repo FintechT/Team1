@@ -1,0 +1,10 @@
+[
+            `#1 <br> Identificador: ${dataJSON.data['0'].Brand['0'].Branch['0'].Identification} 
+            <br> Sucursal:  ${dataJSON.data['0'].Brand['0'].Branch['0'].Name}
+            <br>Número de cajero: ${dataJSON.data['0'].Brand['0'].Branch['0'].PostalAddress.BuildingNumber} 
+            <br> Dirección: <br> Calle:  ${dataJSON.data['0'].Brand['0'].Branch['0'].PostalAddress.StreetName} 
+            <br> Alcaldía: ${dataJSON.data['0'].Brand['0'].Branch['0'].PostalAddress.TownName} 
+            <br> Ciudad: ${dataJSON.data['0'].Brand['0'].Branch['0'].PostalAddress.Country} 
+            <br> CP: ${dataJSON.data['0'].Brand['0'].Branch['0'].PostalAddress.PostCode}`,
+
+            `<br> <br>#2 <br> Número de cajero: ${dataJSON.data['0'].Brand['0'].Branch['1'].Identification}`,

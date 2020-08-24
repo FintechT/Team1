@@ -1,0 +1,8 @@
+<font face=Times New Roman"><font size="6"><a href="E:\idex2142\Documents\API´s\Pruebas\CONSULTA HSBC CHIDA\ALCALDIAS/IZTAPALAPA.html">Iztapalapa</a></font></font><br></br>
+        <font face=Times New Roman"><font size="6"><a href="E:\idex2142\Documents\API´s\Pruebas\CONSULTA HSBC CHIDA\ALCALDIAS/MAGDALENA CONTRERAS.html">Magdalena Contreras</a></font></font><br></br>
+        <font face=Times New Roman"><font size="6"><a href="E:\idex2142\Documents\API´s\Pruebas\CONSULTA HSBC CHIDA\ALCALDIAS/MIGUEL HIDALGO.html">Miguel Hidalgo</a></font></font><br></br>
+        <font face=Times New Roman"><font size="6"><a href="E:\idex2142\Documents\API´s\Pruebas\CONSULTA HSBC CHIDA\ALCALDIAS/MILPA ALTA.html">Milpa Alta</a></font></font><br></br>
+        <font face=Times New Roman"><font size="6"><a href="E:\idex2142\Documents\API´s\Pruebas\CONSULTA HSBC CHIDA\ALCALDIAS/TLAHUAC.html">Tláhuac</a></font></font><br></br>
+        <font face=Times New Roman"><font size="6"><a href="E:\idex2142\Documents\API´s\Pruebas\CONSULTA HSBC CHIDA\ALCALDIAS/TLALPAN.html">Tlalpan</a></font></font><br></br>
+        <font face=Times New Roman"><font size="6"><a href="E:\idex2142\Documents\API´s\Pruebas\CONSULTA HSBC CHIDA\ALCALDIAS/VENUSTIANO CARRANZA.html">Venustiano Carranza</a></font></font><br></br>
+        <font face=Times New Roman"><font size="6"><a href="E:\idex2142\Documents\API´s\Pruebas\CONSULTA HSBC CHIDA\ALCALDIAS/XOCHIMILCO.html">Xochimilco</a></font></font><br></br>

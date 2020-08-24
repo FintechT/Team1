@@ -1,0 +1,38 @@
+/* DOCUMENTO DENOMMINADO EN EL HTML COMO "SHCP.CSS" */
+img {
+    border: 3px;
+}
+
+.center{
+    width: 100%;
+    text-align: center; 
+     
+}
+
+body {
+    margin: 0;
+    min-width: 100vw;
+    background-image: "FONDO API.jpg";
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+        
+/* }
+
+body:before {
+    content: "";
+    width: 100%;
+    min-width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(90deg, #52c4df, #52c4);
+    
+    opacity: 0.5;
+    z-index: -1;
+
+} */
+           
