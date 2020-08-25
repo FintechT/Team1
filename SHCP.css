@@ -55,7 +55,7 @@ body {
     text-align: center;
     width: 100px;
     text-decoration: none;
-    /* box-shadow: 0px 3px 0px #6f7070; */
+    box-shadow: 0px 3px 0px #6f7070
 }
 
 /* Personalizar Lista (Combo list) se le pone class= combolist*/
