@@ -1,6 +1,13 @@
-/* DOCUMENTO DENOMMINADO EN EL HTML COMO "SHCP.CSS" */
+/* DOCUMENTO DENOMINADO EN EL HTML COMO "SHCP.CSS" */
 img {
     border: 3px;
+    display: inline-block;
+    font-size: 0.20em;
+    margin: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    width: 380px;
+    text-decoration: none;
 }
 
 .center{
@@ -14,14 +21,14 @@ body {
     min-width: 100vw;
     background-image: "FONDO API.jpg";
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     background-attachment: fixed;
     
         
-/* }
+}
 
-body:before {
+/* body:before {
     content: "";
     width: 100%;
     min-width: 100vw;
@@ -35,4 +42,37 @@ body:before {
     z-index: -1;
 
 } */
+
+
+
+.button {
+    background: #2ecc71;
+    color: #fff;
+    display: inline-block;
+    font-size: 0.20em;
+    margin: 15px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 100px;
+    text-decoration: none;
+    /* box-shadow: 0px 3px 0px #6f7070; */
+}
+
+/* Personalizar Lista (Combo list) se le pone class= combolist*/
+/* .Combolist {  
+    background: #cfd4e4;
+    color: rgb(159, 33, 218);
+    display: inline-block;
+    font-size: 0.20em;
+    margin: 15px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 500px;
+    text-decoration: none;
+    size: 1;
+    style: "font-size: 16px;
+    font-family: Verdana, 'Times New Roman', 'Times New Roman', Times, serif;
+    height: 25px;
+    box-shadow: 0px 3px 0px #6f7070; */
+/*} */
            
