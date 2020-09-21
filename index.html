@@ -3,85 +3,115 @@
 <head >
     <meta charset="UTF-8">
     <title>CONSULTA DE API DGSROT</title>
-        <link rel="stylesheet" href="SHCP.css">  <!-- PARA CENTRAR LA IMAGEN: -->
+        <link rel="stylesheet" href="SHCP.css">  
         
 </head>
 <body background="FONDO API_2.jpg".cover>
 
-    
-    <!-- <script type= "text/javascript">
-        alert("Bienvenidos !!!") -->
-    <!-- </script> -->
-    
     <div class="right">
-        <img  src="BANXICO.png" alt="How to center an image in CSS"> <!--SE INGRESA LA IMAGEN.-->
-        <img  src="HACIENDA.png" width="250" height="150"> <!--SE INGRESA LA IMAGEN.-->
-        <img  src="CNBV.png" width="250" height="150"> <!--SE INGRESA LA IMAGEN. -->
+        <img  class="img" src="BANXICO.png" width="250" height="150"> 
+        <img  class="img" src="HACIENDA.png" width="250" height="150">
+        <img  class="img" src="CNBV.png" width="250" height="150"> 
     </div>
-    <center><font face="Arial" ><h1 style= "color: white;">LABORATORIO DGSROT</font></center></h1>
-    <center><font face="Times New Roman"><h1 style= "color: yellow;">¡Bienvenido a nuestra API!</font></center></h1>
+    <center><font face="Arial" ><h1 style= "color: white;">LABORATORIO DGSROT!!!!</font></center></h1>
+    <center><font face="Times New Roman"><h1 style= "color:yellow;">¡Bienvenido a nuestra API!</font></center></h1>
     <br></br>
-           
-    <!-- <center><button id="button">ATM HSBC</button> </center>
-    <ul id="list"></ul> -->
-
+    
     <form>
         <div>
             <font face="Times New Roman"><font size="6"><h1 style= "color: blue;">Banco: </font></font>
-            <select size="1" style=" font-size:16px; font-family:Verdana, 'Times New Roman', Times, serif; height:25px">
-                <option>HSBC</option></h1>
-            </select>               
+            <select name="opcuno" id="IDbanco" size="1" style="font-size: 16px; font-family: Verdana, 'Times New Roman', Times, serif; height: 25px;">
+                <option value="Banco" selected="selected">Selecciona un Banco</option></h1>
+            </select>
+                        
         </div>
-     <br></br>
-       
-    <font face="Times New Roman"><font size="6"><h1 style= "color: blue;">Estado: </font></font>
-        <select size="1" style=" font-size:16px; font-family:Verdana, 'Times New Roman', Times, serif; height:25px"> 
-            <option>CDMX</option></h1>
-            <option>Estado de México</option></h1>
-        </select>            
-    
-    </form>           
-    <form name="consulta" target="_blank">
-    <font face="Times New Roman"><font size="6"><h1 style= "color: blue;">Alcaldía: </font></font> 
-    <!--<select name = "alcaldia" size="1" style=" font-size:16px; font-family:Verdana, 'Times New Roman', Times, serif; height:25px">
-        <option>» Selecciona «</option>
-        <option value="file:///E:\idex2142\Documents\API´s\Pruebas\API_DGSROT\Alvaro%20Obregon.html">Álvaro Obregón</option>
-        <option value="file:///E:\idex2142\Documents\API´s\Pruebas\API_DGSROT\Azcapotzalco.html">Azcapotzalco</option>
-        <option value="file:///E:\idex2142\Documents\API´s\Pruebas\API_DGSROT\Benito%20Juarez.html">Bento Juárez</option>
-        <option value="file:///E:\idex2142\Documents\API´s\Pruebas\API_DGSROT\Cuajimalpa%20de%20Morelos.html">Cuajimalpa de Morelos</option>
-        <option value="file:///E:\idex2142\Documents\API´s\Pruebas\API_DGSROT\Cuauhtemoc.html">Cuauhtémoc</option>
-        <option value="file:///E:\idex2142\Documents\API´s\Pruebas\API_DGSROT\GAM.html">Gustavo A. Madero</option>
-        <option value="file:///E:\idex2142\Documents\API´s\Pruebas\API_DGSROT\Iztacalco.html">Iztacalco</option>
-        <option value="file:///E:\idex2142\Documents\API´s\Pruebas\API_DGSROT\IZTAPALAPA.html">Iztapalapa</option>
-        <option value="file:///E:\idex2142\Documents\API´s\Pruebas\API_DGSROT\MAGDALENA%20CONTRERAS.html">Magdalena Contreras</option>
-        <option value="file:///E:\idex2142\Documents\API´s\Pruebas\API_DGSROT\MIGUEL%20HIDALGO.html">Miguel Hidalgo</option>
-        <option value="file:///E:\idex2142\Documents\API´s\Pruebas\API_DGSROT\MILPA%20ALTA.html">Milpa Alta</option>
-        <option value="file:///E:\idex2142\Documents\API´s\Pruebas\API_DGSROT\TLAHUAC.html">Tláhuac</option>
-        <option value="file:///E:\idex2142\Documents\API´s\Pruebas\API_DGSROT\TLALPAN.html">Tlalpan</option>
-        <option value="file:///E:\idex2142\Documents\API´s\Pruebas\API_DGSROT\VENUSTIANO%20CARRANZA.html">Venustiano Carranza</option>
-        <option value="https://ailaydoskulo6hzrxa4k0q-on.drv.tw/web\XOCHIMILCO.html">Xochimilco</option>        
-    </select>
-    <input type="button" value="Ir" style="width:80px;height:30px" onclick="window.open(consulta.alcaldia.value, this.target, 'resizable=1 ,left=80pt,top=80pt,width=1100px,height=800px'); return false;" target="popup">
--->
+                
+        <div>
+            <font face="Times New Roman"><font size="6"><h1 style= "color: blue;">Estado: </font></font>
+            <select name="opcdos" id="IDestado" size="1" style="font-size: 16px; font-family: Verdana, 'Times New Roman', Times, serif; height: 25px;">
+                <option value="Estado" selected="selected">Selecciona un Estado</option></h1>
+            </select>
+                        
+        </div>
+
+        <div>
+            <font face="Times New Roman"><font size="6"><h1 style= "color: blue;">Alcaldía o Municipio: </font></font>
+            <select name="opctres" id="IDentidad" size="1" style="font-size: 16px; font-family: Verdana, 'Times New Roman', Times, serif; height: 25px;">
+                <option value="Entidad" selected="selected">Selecciona una Entidad</option></h1>
+            </select>
+            <input class= "button" type="button" onclick="top.location.href=this.form.opctres.options[this.form.opctres.selectedIndex].value" value="Consultar" style="width:100px; height:30px" width="80" height="30">
+                    
+        </div>
     </form>
-    <select name="list" size="1" style=" font-size:16px; font-family:Verdana, 'Times New Roman', Times, serif; height:25px">
-        <option>-»-»-» Selecciona «-«-«-</option>
-        <option value="https://fintecht.github.io/Team1/ALCALDIAS/Alvaro%20Obregon.html">Álvaro Obregón</option>
-        <option value="https://fintecht.github.io/Team1/ALCALDIAS/Azcapotzalco.html">Azcapotzalco</option>
-        <option value="https://fintecht.github.io/Team1/ALCALDIAS/Benito Juarez.html">Benito Juárez</option>
-        <option value="https://fintecht.github.io/Team1/ALCALDIAS/Coyoacan.html">Coyoacán</option>
-        <option value="https://fintecht.github.io/Team1/ALCALDIAS/Cuajimalpa%20de%20Morelos.html">Cuajimalpa de Morelos</option>
-        <option value="https://fintecht.github.io/Team1/ALCALDIAS/Cuauhtemoc.html">Cuauhtémoc</option>
-        <option value="https://fintecht.github.io/Team1/ALCALDIAS/GAM.html">Gustavo A. Madero</option>
-        <option value="https://fintecht.github.io/Team1/ALCALDIAS/Iztacalco.html">Iztacalco</option>
-        <option value="https://fintecht.github.io/Team1/ALCALDIAS/IZTAPALAPA.html">Iztapalapa</option>
-        <option value="https://fintecht.github.io/Team1/ALCALDIAS/MAGDALENA%20CONTRERAS.html">Magdalena Contreras</option>
-        <option value="https://fintecht.github.io/Team1/ALCALDIAS/MIGUEL%20HIDALGO.html">Miguel Hidalgo</option>
-        <option value="https://fintecht.github.io/Team1/ALCALDIAS/MILPA%20ALTA.html">Milpa Alta</option>
-        <option value="https://fintecht.github.io/Team1/ALCALDIAS/TLAHUAC.html">Tláhuac</option>
-        <option value="https://fintecht.github.io/Team1/ALCALDIAS/TLALPAN.html">Tlalpan</option>
-        <option value="https://fintecht.github.io/Team1/ALCALDIAS/VENUSTIANO%20CARRANZA.html">Venustiano Carranza</option>
-        <option value="https://fintecht.github.io/Team1/ALCALDIAS/XOCHIMILCO.html">Xochimilco</option>
-    </select> <input type="button" value="Consultar" style="width:100px;height:30px; font-size:20px" onclick="top.location.href=this.form.list.options[this.form.list.selectedIndex].value" width="80" height="30">  
+
+    <div id="primero" style="display:none;">Primer Contenido</div>
+
+        <div id="segundo" style="display:none;">segundo Contenido</div>
+
+        <div id="tercero" style="display:none;">Tercer Contenido</div>
+    
+    <script>
+               
+        var stateObject = {        
+            "HSBC": {
+                "CDMX":["Alvaro Obregon.html", "Azcapotzalco.html", "Benito Juarez.html", "Coyoacan.html", "Cuajimalpa de Morelos.html", "Cuauhtemoc.html", "Gustavo A Madero.html", "Iztacalco.html", "Iztapalapa.html", "Magdalena Contreras.html", "Miguel Hidalgo.html", "Milpa Alta.html", "Tlahuac.html", "Tlalpan.html", "Venustiano Carranza.html", "Xochimilco.html" ],
+                "Estado de México": ["Atizapan de Zaragoza.html", "Chalco.html", "Cuautitlan Izcalli.html", "Ecatepec de Morelos.html", "Huixquilucan de Degollado.html", "Ixtapaluca.html", "Naucalpan.html", "Nezahualcoyotl.html", "Tlalnepantla.html", "Toluca.html"]                       
+            }
+        }
+    window.onload = function () {
+        var IDbanco = document.getElementById("IDbanco"),
+            IDestado = document.getElementById("IDestado"),
+            IDentidad = document.getElementById("IDentidad");
+        for (var state in stateObject) {
+            IDbanco.options[IDbanco.options.length] = new Option(state, state);
+        }
+        IDbanco.onchange = function () {
+            IDestado.length = 1; 
+            IDentidad.length = 1; 
+            if (this.selectedIndex < 1) {
+              IDestado.options[0].text = "Selecciona un Estado"
+              IDentidad.options[0].text = "Selecciona una Entidad"
+              return;   
+            }  
+            IDestado.options[0].text = "Selecciona un Estado"
+            for (var county in stateObject[this.value]) {
+                IDestado.options[IDestado.options.length] = new Option(county, county);
+            }
+            if (IDestado.options.length==2) {
+              IDestado.selectedIndex=1;
+              IDestado.onchange();
+            }  
+    
+        }
+        IDbanco.onchange(); // reset in case page is reloaded
+        IDestado.onchange = function () {
+            IDentidad.length = 1; // remove all options bar first
+            if (this.selectedIndex < 1) {
+              IDentidad.options[0].text = "Selecciona una Entidad"
+              return; // done   
+            }  
+            IDentidad.options[0].text = "Selecciona una Entidad"
+    
+            var cities = stateObject[IDbanco.value][this.value];
+            for (var i = 0; i < cities.length; i++) {
+                IDentidad.options[IDentidad.options.length] = new Option(cities[i], cities[i]);
+            }
+            if (IDentidad.options.length==2) {
+              IDentidad.selectedIndex=1;
+              IDentidad.onchange();
+            }  
+    
+        }
+    }
+    
+    function filtrar(){
+       var state = $('[name="opcuno"]').find(":selected").index();
+         var country = $('[name="opcdos"]').find(":selected").index();
+         var city = $('[name="opctres"]').find(":selected").index();
+       alert(" state: "+state+" country: "+country+" city: "+city);
+    
+    }
+</script>
+    
 </body>
 </html>
